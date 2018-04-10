@@ -219,7 +219,7 @@ public class MainActivity extends AppCompatActivity {
                 if(i!=-1)
                 {   float n1=Float.parseFloat(exp1.substring(0,i-1));
                     float n2=Float.parseFloat(exp1.substring(i+2,exp1.length()));
-                    float res=(n1/n2)*100;
+                    float res=(n1/100)*n2;
                     etInput.setText(res+"");
                 }
                 else{
